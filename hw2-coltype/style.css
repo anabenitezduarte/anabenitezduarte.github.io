@@ -27,7 +27,7 @@ margin-bottom: 0px;
 
 }
 p{
-margin-top: 6px; 
+margin-top: 6px;
 font-family: 'Montserrat', sans-serif;
 font-style: 400;
 color: black;
@@ -41,9 +41,12 @@ color: black;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+
+
 }
 .page1 div{
 border: 5px solid pink;
+background-color: rgba(58, 100, 200, 0.3);
 padding: 20px;
 }
 .page1 .feature{
