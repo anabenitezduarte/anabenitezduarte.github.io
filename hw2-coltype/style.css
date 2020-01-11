@@ -1,0 +1,53 @@
+body {
+  background-image: url('high-clouds.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body{
+font-family: 'EB Garamond', serif;
+}
+
+h1{
+font-family: 'EB Garamond', serif;
+color: white;
+letter-spacing: 2px;
+text-align: left;
+font-style: 800;
+font-size: 44px;
+
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+color: pink;
+letter-spacing: 2px;
+font-style: 500;
+margin-bottom: 0px;
+
+}
+p{
+margin-top: 6px; 
+font-family: 'Montserrat', sans-serif;
+font-style: 400;
+color: black;
+}
+
+.page1{
+
+}
+
+.page1 section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.page1 div{
+border: 5px solid pink;
+padding: 20px;
+}
+.page1 .feature{
+  grid-column: 2/4;
+  grid-row: 1/3;
+  font-weight: 700;
+}
