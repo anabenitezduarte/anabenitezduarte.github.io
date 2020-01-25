@@ -1,0 +1,54 @@
+body{
+  background-color: pink;
+}
+.fall {
+  width: 50%;
+  height: 50%;
+}
+
+.text{
+font-family: helvetica;
+    font-size: 28px;
+    color: blue;
+    text-align: left;
+    padding-top: 40px;
+}
+
+
+.person{
+width: 20%;
+padding-top: 100px;
+padding-left: 150px;
+position: relative;
+animation-name: spinPerson;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
+}
+
+@keyframes spinPerson{
+  0%{
+    top: 50px;
+  }
+  100%{
+    top: 700px;
+  }
+}
+
+.circle{
+  animation-name: circleGone;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cicleGone{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
