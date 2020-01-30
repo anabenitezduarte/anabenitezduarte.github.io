@@ -1,0 +1,67 @@
+
+
+
+.btn1{
+  display: inline-block;
+  text-decoration: none;
+  background: red;
+  color: red;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+}
+
+.btn1:hover{
+    background: red;
+}
+
+
+.btn2{
+  display: inline-block;
+  text-decoration: none;
+  background: yellow;
+  color: yellow;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+}
+
+.btn2:hover{
+    background: yellow;
+}
+
+.btn3{
+  display: inline-block;
+  text-decoration: none;
+  background: blue;
+  color: blue;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+}
+
+.btn3:hover{
+    background: blue;
+}
+
+.para1{
+  font-size: 50px;
+  font-weight: bold;
+
+
+}
